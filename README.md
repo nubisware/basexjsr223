@@ -44,6 +44,6 @@ Besides passing the XQuery context at the time of instantiation of the Bindings,
 
 `bindings.put(BaseXScriptEngine.CONTEXT_KEY,context);`
 
-Please check the class AllTests.java for some useful examples on how to use the engine.
+Please check the class [AllTests.java](https://github.com/nubisware/basexjsr223/blob/master/src/test/java/BaseXJSR223/AllTests.java) for some useful examples on how to use the engine.
 
 Note for developers: in order to build BaseXJSR223 you need [gradle](https://gradle.org/) and executing `gradle build` from inside the repository's root folder will generate the library and execute the tests.
