@@ -9,7 +9,8 @@ In order to test BaseXJSR223, you'll have to add to your classpath the BaseXJSR2
 
 At this point you could just write and run a class like the following:
 
-`import javax.script.Bindings;
+```
+import javax.script.Bindings;
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineFactory;
 import javax.script.ScriptEngineManager;
@@ -32,7 +33,8 @@ public class StandaloneTest {
 		}
 	}
 
-}`
+}
+```
 
 There are several names for whom the EngineManager will return BaseXJS223 engine instances ("BaseX", "basex","xquery", "Xquery", "XQuery", "xquery3","xquery3.1"). 
 
