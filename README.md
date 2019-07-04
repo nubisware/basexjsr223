@@ -3,7 +3,7 @@ JSR223 wrapper for BaseX XQuery 3.1 engine
 
 BaseX [1] is our favorite platform for developing services and data oriented applications. Its comprehensive XQuery 3.1 engine turns out to be a real Swiss Army knife in several scenarios.
 
-In order to exploit BaseX for scripting other complex software such as BPM platforms we've created basexjsr223 which is a JSR223 compliant wrapper of BaseX XQuery engine.
+In order to exploit BaseX for scripting other complex software such as BPM engines, we've created basexjsr223 which is a JSR223 compliant wrapper of BaseX XQuery engine.
 
 In order to test BaseXJSR223, you'll have to add BaseXJSR223.jar to your classpath together with BaseX.jar that you can extract from the BaseX distributable at [2]. 
 
