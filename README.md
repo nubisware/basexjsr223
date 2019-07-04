@@ -1,11 +1,11 @@
 # BaseXJSR223
-A JSR223 wrapper for BaseX XQuery 3.1 engine.
+A [JSR223](https://www.jcp.org/en/jsr/detail?id=223) wrapper for BaseX XQuery 3.1 engine.
 
-BaseX [1] is our favorite platform for developing services and data oriented applications. Its comprehensive XQuery 3.1 engine turns out to be a real Swiss Army knife in several scenarios.
+[BaseX](http://www.basex.org) is our favorite platform for developing services and data oriented applications. Its comprehensive XQuery 3.1 engine turns out to be a real Swiss Army knife in several scenarios.
 
 In order to exploit BaseX for scripting other complex software such as BPM engines, we've created basexjsr223 which is a JSR223 compliant wrapper of BaseX XQuery engine.
 
-In order to test BaseXJSR223, you'll have to add to your classpath the BaseXJSR223.jar (download from releases) together with BaseX.jar which you can extract from the BaseX distributable available at [2]. 
+In order to test BaseXJSR223, you'll have to add to your classpath the BaseXJSR223.jar (download from releases) together with BaseX.jar which you can extract from the BaseX distributable available at [BaseX Download](http://www.basex.org/download). 
 
 At this point you could just write and run a class like the following:
 
@@ -46,8 +46,4 @@ Besides passing the XQuery context at the time of instantiation of the Bindings,
 
 Please check the class AllTests.java for some useful examples on how to use the engine.
 
-Note for developers: in order to build BaseXJSR223 you need gradle and `gradle build` from inside the repository's root folder will generate the library and execute the tests.
-
-[1] http://www.basex.org
-
-[2] http://www.basex.org/download
+Note for developers: in order to build BaseXJSR223 you need [gradle](https://gradle.org/) and executing `gradle build` from inside the repository's root folder will generate the library and execute the tests.
