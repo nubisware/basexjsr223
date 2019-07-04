@@ -1,5 +1,5 @@
 # BaseXJSR223
-A [JSR223](https://www.jcp.org/en/jsr/detail?id=223) wrapper for BaseX XQuery 3.1 engine.
+A [JSR223](https://www.jcp.org/en/jsr/detail?id=223) wrapper for BaseX [XQuery 3.1](https://www.w3.org/TR/xquery-31/) engine.
 
 [BaseX](http://www.basex.org) is our favorite platform for developing services and data oriented applications. Its comprehensive XQuery 3.1 engine turns out to be a real Swiss Army knife in several scenarios.
 
