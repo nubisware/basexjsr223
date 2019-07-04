@@ -44,7 +44,7 @@ Besides passing the XQuery context at the time of instantiation of the Bindings,
 
 Please check the class AllTests.java for some useful examples on how to use the engine.
 
-Note for developers: in order to build BaseXJSR223 you need gradle and `gradle build` from inside the projects main root folder will generate the library and execute the tests.
+Note for developers: in order to build BaseXJSR223 you need gradle and `gradle build` from inside the repository's root folder will generate the library and execute the tests.
 
 [1] http://www.basex.org
 
