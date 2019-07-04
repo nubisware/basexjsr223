@@ -34,7 +34,7 @@ public class StandaloneTest {
 
 }`
 
-There are several names for whom the EngineManager will return BaseXJS223 engine instances ("BaseX", ""basex","xquery", "Xquery", "XQuery", "xquery3","xquery3.1"). 
+There are several names for whom the EngineManager will return BaseXJS223 engine instances ("BaseX", "basex","xquery", "Xquery", "XQuery", "xquery3","xquery3.1"). 
 
 It is also possible to get the engine by file extensions ("xq", "xqm", "xquery", "xml") and MIME type ("application/xquery").
 
