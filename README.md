@@ -5,9 +5,9 @@ BaseX [1] is our favorite platform for developing services and data oriented app
 
 In order to exploit BaseX for scripting other complex software such as BPM engines, we've created basexjsr223 which is a JSR223 compliant wrapper of BaseX XQuery engine.
 
-In order to test BaseXJSR223, you'll have to add BaseXJSR223.jar to your classpath together with BaseX.jar that you can extract from the BaseX distributable at [2]. 
+In order to test BaseXJSR223, you'll have to add to your classpath the BaseXJSR223.jar (download from releases) together with BaseX.jar which you can extract from the BaseX distributable available at [2]. 
 
-At this point you could just create a class like the following:
+At this point you could just write and run a class like the following:
 
 `import javax.script.Bindings;
 import javax.script.ScriptEngine;
@@ -34,13 +34,17 @@ public class StandaloneTest {
 
 }`
 
-There are several names for whom the EngineManager will return BaseXJS223 engines ("BaseX", "basex", "xquery", "Xquery", "Xquery3"...) and it is also possible to get the engine by file extensions ("xq", "xqm", "xquery", "xml") and MIME type ("application/xquery").
+There are several names for whom the EngineManager will return BaseXJS223 engine instances ("BaseX", ""basex","xquery", "Xquery", "XQuery", "xquery3","xquery3.1"). 
 
-Besides passing the XQuery context at the time of creation of the ScriptBindings, it is also possible to add it through a special key:
+It is also possible to get the engine by file extensions ("xq", "xqm", "xquery", "xml") and MIME type ("application/xquery").
+
+Besides passing the XQuery context at the time of instantiation of the Bindings, it is also possible to pass it through a special key:
 
 `bindings.put(BaseXScriptEngine.CONTEXT_KEY,context);`
 
 Please check the class AllTests.java for some useful examples on how to use the engine.
+
+Note for developers: in order to build BaseXJSR223 you need gradle and `gradle build` from inside the projects main root folder will generate the library and execute the tests.
 
 [1] http://www.basex.org
 
