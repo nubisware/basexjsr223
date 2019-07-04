@@ -1,5 +1,5 @@
-# basexjsr223
-JSR223 wrapper for BaseX XQuery 3.1 engine
+# BaseXJSR223
+A JSR223 wrapper for BaseX XQuery 3.1 engine.
 
 BaseX [1] is our favorite platform for developing services and data oriented applications. Its comprehensive XQuery 3.1 engine turns out to be a real Swiss Army knife in several scenarios.
 
