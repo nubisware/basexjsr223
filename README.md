@@ -7,9 +7,9 @@ In order to exploit BaseX for scripting other complex software such as BPM engin
 
 In order to use BaseXJSR223, you'll have to add to your classpath the BaseXJSR223.jar (download from releases) together with BaseX.jar which you can extract from the BaseX distributable available at [BaseX Download](http://www.basex.org/download). 
 
-At this point you could just write and run a class like the following:
+At this point you could just write and run code like the following example class:
 
-```
+```Java
 import javax.script.Bindings;
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineFactory;
