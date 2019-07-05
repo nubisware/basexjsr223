@@ -5,7 +5,7 @@ A [JSR223](https://www.jcp.org/en/jsr/detail?id=223) wrapper for BaseX [XQuery 3
 
 In order to exploit BaseX for scripting other complex software such as BPM engines, we've created basexjsr223 which is a JSR223 compliant wrapper of BaseX XQuery engine.
 
-In order to test BaseXJSR223, you'll have to add to your classpath the BaseXJSR223.jar (download from releases) together with BaseX.jar which you can extract from the BaseX distributable available at [BaseX Download](http://www.basex.org/download). 
+In order to use BaseXJSR223, you'll have to add to your classpath the BaseXJSR223.jar (download from releases) together with BaseX.jar which you can extract from the BaseX distributable available at [BaseX Download](http://www.basex.org/download). 
 
 At this point you could just write and run a class like the following:
 
