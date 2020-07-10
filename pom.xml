@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.nubisware</groupId>
+  <artifactId>basex-jsr223</artifactId>
+  <version>1.0.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.basex</groupId>
+      <artifactId>basex</artifactId>
+      <version>9.2.4</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <build>
+    <!-- needed by sonar plugin to find files to analyse -->
+    <sourceDirectory>${sonar.sources}</sourceDirectory>
+  </build>
+  <properties>
+    <!-- properties for sonar -->
+    <sonar.language>js</sonar.language>
+    <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
+    <!-- used in build/properties -->
+    <sonar.sources>${basedir}/src/main/javascript</sonar.sources>
+  </properties>
+</project>
